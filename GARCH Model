@@ -1,0 +1,58 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled13.ipynb",
+      "provenance": [],
+      "collapsed_sections": [],
+      "authorship_tag": "ABX9TyP1KvFiihXf9T1kVUFaC08n",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/newlearnerbishal/python-random-quote/blob/master/GARCH%20Model\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip install arch"
+      ],
+      "metadata": {
+        "id": "mNEdZwkjj96F"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 6,
+      "metadata": {
+        "id": "2AOwbujCjoFs"
+      },
+      "outputs": [],
+      "source": [
+        "from random import gauss\n",
+        "import matplotlib.pyplot as plt\n",
+        "import numpy as np\n",
+        "from arch import arch_model\n",
+        "from statsmodels.graphics.tsaplots import plot_acf, plot_pacf"
+      ]
+    }
+  ]
+}
